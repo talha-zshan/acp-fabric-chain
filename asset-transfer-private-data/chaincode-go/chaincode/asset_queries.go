@@ -14,6 +14,9 @@ import (
 	"github.com/hyperledger/fabric-contract-api-go/contractapi"
 )
 
+// const assetCollection = "assetCollection"
+// const transferAgreementObjectType = "transferAgreement"
+
 // ReadAsset reads the information from collection
 func (s *SmartContract) ReadAsset(ctx contractapi.TransactionContextInterface, assetID string) (*Asset, error) {
 
